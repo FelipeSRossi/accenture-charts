@@ -6,7 +6,6 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { AppComponent } from './app.component';
-import { ProductListComponent } from './product-list/product-list.component';
 import { TableComponent } from './table/table.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -43,7 +42,6 @@ import { AtendimentoComponent } from './atendimento/atendimento.component';
   ],
   declarations: [
     AppComponent,
-    ProductListComponent,
     TableComponent,
     ChartComponent,
     AtendimentoComponent
