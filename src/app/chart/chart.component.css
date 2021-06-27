@@ -1,0 +1,9 @@
+:host {
+    display: flex;
+}
+
+chart {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}

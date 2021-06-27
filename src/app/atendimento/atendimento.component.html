@@ -1,0 +1,6 @@
+<mat-card>
+  <app-chart [data]="chartData"></app-chart>
+</mat-card>
+<mat-card>
+  <app-table [rows]="tableRows" (selected)="selectRow($event)"></app-table>
+</mat-card>

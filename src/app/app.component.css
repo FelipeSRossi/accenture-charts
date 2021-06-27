@@ -1,0 +1,29 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-toolbar {
+  flex-basis: auto;
+}
+
+mat-sidenav-container {
+  flex-grow: 1;
+}
+
+mat-list-item {
+  display: flex;
+}
+
+mat-list-item button {
+  flex-basis: auto;
+  flex-grow: 1;
+  text-align: left;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
