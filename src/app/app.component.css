@@ -8,6 +8,10 @@ mat-toolbar {
   flex-basis: auto;
 }
 
+mat-toolbar span {
+  padding: 0 10px;
+}
+
 mat-sidenav-container {
   flex-grow: 1;
 }
